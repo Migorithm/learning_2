@@ -1,0 +1,28 @@
+IP:10.40.212.111:6379
+cluster_state : ok
+cluster_slots_assigned : 16384
+cluster_known_nodes : 4
+cluster_size
+
+
+IP:10.40.202.218:6379
+cluster_state : ok
+cluster_slots_assigned : 16384
+cluster_known_nodes : 4
+cluster_size
+
+
+IP:10.40.202.143:6379
+cluster_state : ok
+cluster_slots_assigned : 16384
+cluster_known_nodes : 4
+cluster_size
+
+
+IP:10.40.212.159:6379
+cluster_state : ok
+cluster_slots_assigned : 16384
+cluster_known_nodes : 4
+cluster_size
+
+
