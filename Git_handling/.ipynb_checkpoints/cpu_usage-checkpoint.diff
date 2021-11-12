@@ -1,0 +1,20 @@
+--- cpu_usage.py	2021-11-12 15:44:35.000000000 +0900
++++ cpu_usage_fixed.py	2021-11-12 15:52:45.000000000 +0900
+@@ -1,11 +1,11 @@
+-#!/bin/python3
+ import psutil
++
+ def check_cpu_usage(percent):
+-    usage = psutil.cpu_percent()
++    usage = pustil.cpu_percent(1)
++    print("DEBUG: usage: {}".format(usage))
+     return usage < percent
+ 
+ if not check_cpu_usage(75):
+     print("CPU is being overloaded!")
+ else:
+-    print("It's fine")
+-    
+\ No newline at end of file
++    print("It's fine")
+\ No newline at end of file
