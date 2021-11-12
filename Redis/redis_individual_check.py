@@ -1,7 +1,4 @@
-from rediscluster import RedisCluster
 import redis
-import subprocess
-from pprint import pprint
 
 rc1 = redis.Redis.from_url("redis://upgrade-test5-0001-001.kitlrm.0001.apn2.cache.amazonaws.com:6379",socket_connect_timeout=0.5,retry_on_timeout=False)
 rc2 = redis.Redis.from_url("redis://upgrade-test5-0001-002.kitlrm.0001.apn2.cache.amazonaws.com:6379",socket_connect_timeout=0.5,retry_on_timeout=False)
